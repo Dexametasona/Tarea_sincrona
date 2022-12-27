@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
+              "D:/Descargas/desarrollo web front end/ejemplo_front end/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [  
+              "D:/Descargas/desarrollo web front end/ejemplo_front end/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,9 +93,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "D:/Descargas/desarrollo web front end/ejemplo_front end/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": ["D:/Descargas/desarrollo web front end/ejemplo_front end/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         }
       }

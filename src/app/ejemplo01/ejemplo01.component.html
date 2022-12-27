@@ -1,0 +1,17 @@
+<div class="container w-25 bg-info bg-opacity-25 p-3">
+  <h1 >USUE</h1>
+  <form action="">
+    <div class="my-3">
+      <label for="name" class="form-label">Nombre: </label>
+      <input type="text" id="name" class="form-control" name="nombre" [(ngModel)]="nombre">
+    </div>
+    <div class="mb-3">
+      <label for="apell" class="form-label">Apellido: </label>
+      <input type="text" id="apell" class="form-control" name="apellido" [(ngModel)]="apellido">
+    </div>
+    <div class="my-3">
+      <button class="btn btn-primary rounded-circle" (click)="setRespuesta()">add</button>
+    </div>  
+  </form>
+  <textarea *ngIf="registro" rows="5" class="form-control">{{respuesta}} con el nombre: {{nombre}} {{apellido}}</textarea>
+</div>
